@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Set the background color to white */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #FFFFFF;
+  }
+  
+  /* Add some basic styling to the sections */
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li h3 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #F7F7F7;
+    padding: 20px;
+    border-top: 1px solid #CCCCCC;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }

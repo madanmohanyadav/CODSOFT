@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madan Mohan Resume</title>
+    <link rel="stylesheet" href="rstyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="dad" id="download">
+    <header>
+        <h1>MOkka Madan mohan</h1>
+<p><marque>An Passionate Frontend developer</marque></p>
+    </header>
+    <section id="summary">
+        <h2>OBJECTIVE</h2>
+        <p>To Obtain a challenging and Responsible In a Dynamic Company, Utilizing My Professional Qualifications For The Progress and the Sucess of the Organization and to update Myself With the Latest Technologies, Thus Progressing in MY Career.</p>
+    </section>
+    <section id="experience">
+        <h2>EXPERIENCE</h2>
+        <ul>
+            <li>
+                <h3>INTERNSHIP, CODSOFT(AUG 2024- SEP 2024)</h3>
+                <p>Web Development Virtual Intership at CodSoft</p>
+            </li>
+
+            <li>
+                <h3>INTERNSHALA STUDENT PARTNER, INTERNSHALA(AUG 2024)</h3>
+                <p>Intershala Student Partner(ISP) For Malla Reddy Engineering College.</p>
+            </li>
+            <li>
+                <h3>PROJECT INTERN,DATAPOINT INFO SOLUTIONS P LTD. (JUN 2022 - NOV 2022)</h3>
+                <p>Sucessfully Completed an Intership Training Based on Python Technology Which is Related to the Project Stock Index Prediction Uing Artificial Intelligence and Neural Networks</p>
+            </li>
+            
+        </ul>
+    </section>
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <ul>
+            <li>
+                <h3>BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE ENGINEERING(AIML),MALLA REDDY ENGINEERING COLLEGE (2023-2026)</h3>
+                <p>Coursework: Data Structures, Algorithms, Artificial Intelligence, Machine Learning,Deep Learning, Neural Networks</p>
+            </li>
+            <li>
+                <h3>DIPLOMA IN COMPUTER SCIENCE ENGINEERING,BANDARI SRINIVAS INSTITUTE OF TECHNOLOGY  ( 2020- 2023)</h3>
+                <p>Coursework: Web Programming, Computer Networks</p>
+            </li>
+            
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>skills</h2>
+        <ul>
+            <li>Programming languages: Java, Python,C,C++ </li>
+            <li>Web Technologies: HTML,CSS,Javascript</li>
+            <li>Tecnnical Skills:Database Management System,Computer Networks,Machine Learning,Data Structures </li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contact Information:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:mokkamadanyadav@gmail.com">mokkamadanyadav@gmail.com</a></li>
+            <li><strong>Phone:</strong> +91 9573722618</li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mokka-madan-mohan-7925341ba">https://www.linkedin.com/in/madanmohan/</a></li>
+        
+        </ul>
+        <p>Download my resume in PDF format: </p>
+        <button onclick="generatepdf()">download</button>
+    </footer>
+    </div>
+
+    <script>
+        function generatepdf(){
+            const element = document.getElementById("download");
+            html2pdf().from(element).save();
+        }
+    </script>
+</body>
+</html>
